@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "name": "New Actions",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "0ee6464f-a59c-47fa-9cfa-17c59ea644f8",
+            "actions": [
+                {
+                    "name": "BUTTONS",
+                    "type": "Button",
+                    "id": "07872bbc-53f9-4bef-a8a6-8941cd6d23e3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c292bbbb-fb94-4af9-a898-520b9bf95e23",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";New Control Scheme",
+                    "action": "BUTTONS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3facfeda-2127-4148-9399-1d85f23c84a3",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";New Control Scheme",
+                    "action": "BUTTONS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": []
+        }
+    ]
+}
